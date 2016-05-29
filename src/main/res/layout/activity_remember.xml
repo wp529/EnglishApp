@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_times"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/tv_word"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_times"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="#000"
+        android:textSize="20sp"
+        tools:text="abc" />
+
+    <TextView
+        android:id="@+id/tv_answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_translate"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:visibility="invisible" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btn_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/tran"
+        app:backgroundTint="#ff87ffeb"
+        app:borderWidth="0dp"
+        app:elevation="6dp"
+        app:rippleColor="#000" />
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btn_again"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/again"
+        android:visibility="invisible"
+        app:backgroundTint="#ff87ffeb"
+        app:borderWidth="0dp"
+        app:elevation="6dp"
+        app:rippleColor="#000" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btn_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/pass"
+        android:visibility="invisible"
+        app:backgroundTint="#ff87ffeb"
+        app:borderWidth="0dp"
+        app:elevation="6dp"
+        app:rippleColor="#000" />
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btn_say"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:src="@android:drawable/ic_btn_speak_now"
+        app:backgroundTint="#ff87ffeb"
+        app:borderWidth="0dp"
+        app:elevation="6dp"
+        app:rippleColor="#000" />
+</LinearLayout>

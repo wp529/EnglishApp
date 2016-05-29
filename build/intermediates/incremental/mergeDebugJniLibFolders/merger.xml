@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="E:\Android\ASWorkSpace\Mine\english\src\main\jniLibs"><file name="armeabi/libmsc.so" path="E:\Android\ASWorkSpace\Mine\english\src\main\jniLibs\armeabi\libmsc.so"/></source></dataSet><dataSet config="debug"><source path="E:\Android\ASWorkSpace\Mine\english\src\debug\jniLibs"/></dataSet></merger>

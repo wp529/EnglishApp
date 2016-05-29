@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_back"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/tv_level"
+        android:layout_centerInParent="true"
+        android:layout_margin="100dp"
+        android:textSize="18sp"
+        android:textColor="#0f0"
+        android:typeface="serif"
+        tools:text="当前为游客模式，无法使用购物车功能，如果想使用购物车，请点击下方按钮登录!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
